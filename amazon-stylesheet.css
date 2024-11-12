@@ -1,0 +1,355 @@
+*body{
+    background-color: #E6E6E6;
+}
+*{  margin:0px;
+    box-sizing:border-box;
+    font-family:Arial, Helvetica, sans-serif;
+}
+#outermost_navbar{
+    height:60px;
+    width:100vw;
+    background-color:#0F1111;
+    color:white;
+}
+#inner_nav{
+    color:white;
+    height:60px;
+    width:100vw;
+    display:flex;
+    flex-wrap: row;
+    align-items: center;
+}
+#amazon_logo_outer_container{
+    margin-left:5px;
+    width:133px;
+    height:60px;
+}
+#amazon_logo{
+    height:45px;
+    margin:2px;
+    width:133px;
+    background-image:url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQYtzWLCcvlq_-FbfM_yJxQTbcbsJC-LIsI_C1DikcRmLeehXrtaqaxGzYmVX51CoCNK0o&usqp=CAU");
+    background-size: cover;
+    padding-bottom:6px;
+}
+#location_outer_container{
+    height:60px;
+    width:90px;
+    margin-left:7px;
+    background-color:#0F1111;
+}
+#location_navbar{
+    height:50px;
+    width:88px;
+    padding-left:8px;
+    padding-top: 10px;
+}
+#paragraph_of_location{
+    padding-left:17px;
+    font-size: 12px;
+}
+#icon_of_location{
+    padding: 0px;
+    height:15px;
+}
+#search_bar_outer_container{
+    height:60px;
+    width:1200px;
+    background-color: #0F1111;
+    display:flex;
+    align-items: center;
+}
+#dropdown_navbar_searchaside{
+    height:40px;
+    background-color:#E6E6E6;
+    width:50px;
+    text-align: CENTER;
+    border-style:none;
+    border-top-left-radius: 0.3em;
+    border-bottom-left-radius: 0.3em;
+}
+#search_box_navbar{
+    height:42.5px;
+    border-width:2px;
+    width:1050px;
+    font-size: 1rem;
+    /* border-style:none; */
+}
+#fa-magnifying-glass_navbar_center{
+    font-size: 20px;
+}
+#img_div_search_icon_navbar{
+    height:40px;
+    width:45px;
+    border-width:2px;
+    border-style:none;
+    border-top-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+}
+#search_button_navbar{
+    height:40px;
+    width:45px;
+    background-color: rgb(250, 181, 52);
+    border-style: none;
+    border-top-right-radius: 0.3em;
+    border-bottom-right-radius: 0.3em;
+
+}
+.elementsofnavbar:hover{
+    border-width:1px;
+    border:border-box;
+    border-style:solid;
+    border-color:#E6E6E6;
+}
+#dropdown_select_topic_navbar{
+    margin-left:15px;
+}
+#navbar_righmost_div{
+    width:460px;
+    height: 60px;
+    display:flex;
+    flex-wrap: row;
+    justify-content: space-between;
+    background-color:#0F1111;
+}
+#dropdown_origin_navbarrightmost_flag{
+    height:43px;
+    width: 75px;
+    margin-top:3px;
+    background-color:#0F1111;
+    display:flex;
+    align-items:end;
+    justify-content:space-between;
+}
+#dropdown_language{
+    font-size: smaller;
+    WIDTH:40px;
+    background-color: #0F1111;
+    color:#E6E6E6;
+    margin:0px;
+    border:0px;
+    height:20px;
+}
+#img_flag_pic{
+    height: 20px;
+    margin:0px;
+    border:0px;
+    width: 30px;
+}
+/* this is */
+#account_signin_navbar_righmost{
+    background-color: #0F1111;
+    /* margin-left:4px; */
+    height:50px;
+    width:131px;
+    display:flex;
+    flex-direction: column;
+    align-items:flex-start;
+    justify-content: flex-end;
+}
+
+#account_info_sign_in_navrightmost{
+    height:18px;
+    width:113px;
+    margin-bottom:3px;
+    color: #E6E6E6;
+    border-color:#E6E6E6;
+    background-color: #0F1111;
+    font-style:bold;
+}
+#paragraph_sign_in_navrightmost{
+    font-size: 12px;
+}
+/* i am */
+#returns_order_navbar_rightmost_outer{
+    background-color: #0F1111;
+}
+#returns_nav_rightmost_insider{
+    font-size: 14px;
+    margin-top:12px;
+}
+#and_order_nav_righmost_insider{
+    font-size:18px;
+    font-style:bold;
+}
+#cart_nav_outer_rightmost{
+    background-color:#0F1111;
+    height:50px;
+    width:84px;
+    display:flex;
+    align-items: end;
+    justify-content:start;
+}
+#cart_icon_nav_righmost{
+    margin-bottom: 3px;
+}
+#cart_h_nav_rightmost{
+    margin-bottom: 3px;
+}
+
+.orangish_border:focus {
+    /* border-style:double; */
+    border: 8px solid darkorange;
+    box-sizing: border-box;
+    outline:none;
+}
+/* navbar portion ends here now its portion below navbar (not main content yet) */
+
+#outermost_tile_belownav{
+    background-color:#232F3E;
+    height:39px;
+    width:100vw;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:flex-start;
+    flex-direction:column;
+}
+#icon_menubar_tile_belownavbar{
+    color:#ffffff;
+    font-size:21px;   
+    margin-right:5.5px; 
+}
+#menuelementdiv{
+    width:max-content;
+    height:39px;
+    display:flex;
+    align-items: center;
+    margin-left:18px;
+}
+#menu_h_tile_belownav{
+    color:#ffffff;
+    font-style: bold;
+    font-weight:bold;
+    font-size: 14px;
+}
+
+#paragraph_between_tile{
+    /* color:#ffffff; */
+    color:#ffffff;
+    height:39px;
+    width:1456px;
+    font-size: 14px;
+    display:flex;
+    justify-content:start;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-direction: row;
+}
+.paragraph_of_tile_belownav{
+    display:inline;
+    margin:0px 10px 0px 10px;
+}
+#Shop_last_h_tile_belownav{
+    width:184px;
+    font-weight: bold;
+    height:39px;
+    margin-left: 110px;
+    padding-left:25px;
+    color:#ffffff;
+    display:flex;
+    align-items: center;
+}
+#heading_shop_tile_navbarbelow{
+    font-size: 14px;
+}
+
+#upper_section_bg{
+    width:100vw;
+    height:2265px;
+    display:flex;
+    justify-content: center;
+    background-color: #E6E6E6;
+}
+#hero_section_outer{
+    position:absolute;
+    background-image:url(Herogamingsectionamazon.jpg.jpg);
+    background-size:cover;
+    width:100vw;
+    height:600px;
+    border-bottom-left-radius:2%;
+    border-bottom-right-radius:2%;
+    flood-opacity: 50%;
+    animation:slideanimation 20s infinite;
+    animation-timing-function:steps(1);
+}
+#hero_section_outer::after{
+    width:100%;
+    content:'';
+    height:200px;
+    position:absolute;
+    left:0;
+    bottom:0;
+    background:linear-gradient(to bottom,rgba(255,255,255,0),rgba(255,255,255,1.1));
+    pointer-events: none;
+}
+@keyframes slideanimation{
+    0%{background-image: url("Herogamingsectionamazon.jpg.jpg")}
+    50%{background-image:url("shop_toys_herosection.jpg")}
+    100%{background-image: url("Herogamingsectionamazon.jpg.jpg")}
+}
+
+/* below hero section begins */
+#layer_above_the_hero_background_content{
+    width:96%;
+    z-index:1;
+    height:1600px;
+    background-color:#E6E6E6;
+    position:relative;
+    top:250px;
+}
+
+.packaging_box{
+    display:flex;
+    justify-content: space-between;
+}
+.box_container{
+    background-color: #ffffff;
+    width:23%;
+    height:30rem;
+    border:2px solid none;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+.heading_inside_boxcontainer{
+    font-size: 21px;
+    font-weight: bold;
+    margin-bottom: 8px;
+    display:block;
+}
+.img_inboxcontainer_single{
+    height:25rem;
+    margin:0px;
+    width:20rem;
+    /* background-image: url("CleaningTool_1x._SY116_CB563137408_.jpg"); */
+    background-size: cover;
+    background-repeat:no-repeat;
+}
+.paragraph_inside_boxcontainer{
+    margin-top:10px;
+    font-weight: bold;
+}
+#end_container{
+    color:black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+    width:100vw;
+    background-color:burlywood;
+}
+#end_p_second{
+    font-size: 20px;
+}
+#endline{
+    height:2px;
+    width:100vw;
+    background-color: black;
+}
+#real_endline{
+    height:2px;
+    width:100vw;
+}
